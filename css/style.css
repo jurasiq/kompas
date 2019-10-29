@@ -1,0 +1,18 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(27.56%, #005449), to(#003333));
+  background: linear-gradient(180deg, #005449 27.56%, #003333 100%);
+  min-width: 320px;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
