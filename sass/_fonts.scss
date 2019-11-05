@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "AgoraSansProMedium";
+	src: url("../fonts/AgoraSansProMedium/AgoraSansProMedium.eot");
+	src: url("../fonts/AgoraSansProMedium/AgoraSansProMedium.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/AgoraSansProMedium/AgoraSansProMedium.woff") format("woff"),
+		url("../fonts/AgoraSansProMedium/AgoraSansProMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "AgoraSansProUltraBlack";
+	src: url("../fonts/AgoraSansProUltraBlack/AgoraSansProUltraBlack.eot");
+	src: url("../fonts/AgoraSansProUltraBlack/AgoraSansProUltraBlack.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/AgoraSansProUltraBlack/AgoraSansProUltraBlack.woff") format("woff"),
+		url("../fonts/AgoraSansProUltraBlack/AgoraSansProUltraBlack.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@mixin medium {
+	font-family: 'AgoraSansProMedium', sans-serif;
+}
+
+@mixin bold {
+	font-family: 'AgoraSansProUltraBlack', sans-serif;
+}
